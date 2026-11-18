@@ -1,0 +1,54 @@
+Project/
+│
+├── api/
+│   ├── accounting.php
+│   ├── admin_student_details.php
+│   ├── admin_students.php
+│   ├── admin.php
+│   ├── login.php
+│   ├── registrar.php
+│   ├── session.php
+│   └── student_profile.php
+│
+│
+├── pages/
+│   ├── accounting.html
+│   ├── admin.html
+│   ├── home.html
+│   ├── login.html
+│   ├── profile.html
+│   └── registrar.html
+│
+├── css/
+│   ├── admin.css
+│   ├── nav.css
+│   ├── pages.css
+│   └── login.css
+│
+├── config/
+│   ├── database.php
+│   ├── mail.php
+|
+├── components/
+│   ├── admin-settings.html
+│   └── student-navbar.html
+│
+├── js/
+│   ├── accounting.js
+│   ├── admin.js
+│   ├── common,js
+│   ├── home.js
+│   ├── login.js
+│   ├── profile.js
+│   └── registrar.js
+│
+└── images/
+    └── icplogo.jpg
+
+
+
+login Page: http://localhost/queueski/pages/login.html
+
+admin login: 
+User: ICP-ADMIN-001
+Password: icpadmin001

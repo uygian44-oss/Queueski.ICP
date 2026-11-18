@@ -1,0 +1,27 @@
+1. Student Accounts in Admin ✅
+
+The list displays registered students, including their Student IDs, names, emails, and account creation dates. Grade Level and Section are also part of the student data we're working with.
+
+
+
+2. Clickable Student IDs and Profiles
+
+Clicking a Student ID should open the student's complete personal information. The Admin and Student Profile pages must use the same database record.
+
+
+
+3. Accounting Workflow
+
+Payment choices, applicable fees, payment processing, and each student's complete financial ledger—including charges, payments, and running balances.
+
+
+
+4. Registrar Workflow
+
+Processing academic-record and document requests, updating statuses, and tracking request completion.
+
+
+
+5. Database-connected queue processing
+
+Accounting and Registrar actions should persist in MySQL and work with the existing ticket and queue system—not rely on browser-only storage.

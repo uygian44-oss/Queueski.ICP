@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#163B70">
+
+    <title>QUEUESKI | Login</title>
+
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <main class="login-layout">
+
+        <!-- =====================================
+             LEFT SIDE: SCHOOL BRANDING
+             ===================================== -->
+        <section class="school-branding">
+
+            <img
+                src="../images/loginlogo.jpg"
+                alt="School Logo"
+                class="school-logo"
+            >
+
+            <div class="branding-content">
+                <p class="welcome-label">WELCOME TO</p>
+
+                <h1>QUEUESKI</h1>
+
+                <p class="system-description">
+                    Student Queue Management System
+                </p>
+
+                <div class="branding-divider"></div>
+
+                <div class="branding-message-box">
+                    <p class="branding-message">
+                        Making student services more organized,
+                        accessible, and convenient.
+                    </p>
+
+                    <p class="branding-footer">
+                        YOUR SCHOOL. YOUR SERVICES. YOUR QUEUE.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- =====================================
+             RIGHT SIDE: LOGIN FORM
+             ===================================== -->
+        <section class="login-section">
+
+            <div class="login-card">
+
+                <div class="login-heading">
+                    <span class="login-label">STUDENT PORTAL</span>
+
+                    <h2>Welcome Back!</h2>
+
+                    <p>Sign in to access your student services.</p>
+                </div>
+
+                <!-- LOGIN FORM -->
+                <form id="loginForm">
+
+                    <!-- Username / Student Number -->
+                    <div class="form-group">
+                        <label for="username">
+                            Student Number / Admin Username
+                        </label>
+
+                        <input
+                            type="text"
+                            id="username"
+                            name="username"
+                            required
+                            placeholder="Enter your ID or username"
+                            autocomplete="username"
+                        >
+
+                        <small class="login-hint">
+                            Students: use your official Student ID.
+                            Admins: use your admin username.
+                        </small>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group">
+                        <label for="password">Password</label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            required
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                        >
+
+                        <small class="login-hint">
+                            Enter the password assigned to your account.
+                        </small>
+                    </div>
+
+                    <button type="submit" id="loginButton">
+                        <span>Log In</span>
+                        <span class="button-arrow" aria-hidden="true">→</span>
+                    </button>
+
+                </form>
+
+                <!-- LOGIN FEEDBACK -->
+                <div
+                    id="message"
+                    class="message"
+                    aria-live="polite"
+                ></div>
+
+                <div class="login-footer">
+                    <span class="footer-line"></span>
+                    <span>Authorized Users Only</span>
+                    <span class="footer-line"></span>
+                </div>
+
+            </div>
+
+            <p class="copyright">
+                QUEUESKI &copy; 2026
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- KEEP THE EXISTING LOGIN SCRIPT -->
+    <script src="../js/login.js"></script>
+
+</body>
+</html>
